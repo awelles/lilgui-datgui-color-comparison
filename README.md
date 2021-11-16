@@ -1,5 +1,7 @@
 # lilgui-datgui-color-comparison
 
+| [Github](https://github.com/awelles/lilgui-datgui-color-comparison) | [Live](https://awelles.github.io/lilgui-datgui-color-comparison) |
+
 Color behavior explored for lil-gui vs dat-gui with various color formats:
 
 ```js
