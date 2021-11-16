@@ -1,10 +1,12 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<title>lil-gui - Basic Example</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With lil-gui</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+
 <body>
     <h1>With lil-gui</h1>
     <div id="params"></div>
@@ -19,11 +21,11 @@
         <li>color7: RGBA object</li>
         <li>color8: HSV object</li>
     </ul>
-	<script type="module">
-		
-		import GUI from './lilgui/lil-gui.esm.js';
+    <script type="module">
 
-		const gui = new GUI();
+        import GUI from './lilgui/lil-gui.esm.js';
+
+        const gui = new GUI();
 
         function printParams() {
             const paramsStr = JSON.stringify( params, null, 2 );
@@ -43,8 +45,8 @@
             color7: { r: 110, g: 0, b: 40, a: 0.5 }, // RGBA object
             color8: { h: 350, s: 0.9, v: 0.3 }, // HSV object
         };
-        
-		gui.addColor( params, 'color0' );
+
+        gui.addColor( params, 'color0' );
         gui.addColor( params, 'color1' );
         gui.addColor( params, 'color2' );
         gui.addColor( params, 'color3' );
@@ -53,9 +55,10 @@
         gui.addColor( params, 'color6', 255 );
         gui.addColor( params, 'color7', 255 );
         gui.addColor( params, 'color8' );
-        
+
         printParams();
 
-	</script>
+    </script>
 </body>
+
 </html>
