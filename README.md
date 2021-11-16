@@ -16,5 +16,5 @@ const params = {
 };
 ```
 
-[Example with lil-gui](withlilgui.html)
-[Example with dat-gui](withdatgui.html)
+* [Example with lil-gui](withlilgui.html)
+* [Example with dat-gui](withdatgui.html)
